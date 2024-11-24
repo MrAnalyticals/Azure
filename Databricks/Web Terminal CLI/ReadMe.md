@@ -11,5 +11,6 @@ To securely add a secret key to your Databricks notebook without making it visib
 For more detailed instructions, you can refer these urls:
 • Tutorial: Create and use a Databricks secret - Azure Databricks
 https://learn.microsoft.com/en-us/azure/databricks/security/secrets/example-secret-workflow
+
 • Install or update the Databricks CLI
 https://learn.microsoft.com/en-us/azure/databricks/dev-tools/cli/install
