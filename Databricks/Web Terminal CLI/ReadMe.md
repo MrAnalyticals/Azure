@@ -1,7 +1,8 @@
 
 **Creating a Databricks Secret Scope
 **
-Demo video: 
+Demo video: https://www.youtube.com/watch?v=wDZ92AKxhlI
+
 To securely add a secret key to your Databricks notebook without making it visible, you can use Databricks Secret Scopes. Here’s a step-by-step guide:
 1. Create a Secret Scope:
 2. Add Secrets to the Scope:
