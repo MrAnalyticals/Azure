@@ -1,5 +1,6 @@
 **Connecting Rest API data to your Azure Databricks Notebook**
 
+YouTube Video: https://youtu.be/0bn8BklUqMc
 
 In this demo I show you how to connect REST API available data to your Azure Databricks notebook. 
 In Microsoft's documentation page, entitled PySpark basics, 
@@ -8,7 +9,9 @@ https://learn.microsoft.com/en-us/azure/databricks/pyspark/basics]
 there is information about creating a DataFrame from a JSON response returned by calling a REST API. It uses a Python requests package. You must import that package into your Databricks notebook to use it. 
 The example provided, in that documentation page, uses data that does not have particular relevance to many residents in Europe or indeed, to many people outside the USA. So, let's use some data relevant to political science and in particular helpful to my task of understanding how and why political regimes come into being and take over a country. In my azure sql server database, as mentioned in my previous Databricks videos, I already have a table that lists many countries and their political regimes together with some relevant statistics. But with this demo let's delve a little deeper into what other information is available online and also relevant in assisting us with my aim. 
 
-So, I found "Our World in Data" which offers a Chart Data API that allows you to access data in CSV and JSON formats. This API is designed to support automated workflows and custom applications which sounds perfect to me. 
+So, I found "Our World in Data" which offers a Chart Data API that allows you to access data in CSV and JSON formats. This API is designed to support automated workflows and custom applications which sounds perfect to me.
+![image](https://github.com/user-attachments/assets/32e6cf14-8d53-43e1-ae92-ede0be50e869)
+
 The url is available in this video's description. Let's connect to it and see what we have, shall we?
 [https://ourworldindata.org/easier-to-reuse-our-data]
 In the meantime let's have a look at an animated chart displayed on the "Our World in Data" site entitled Political Regime that displays the change in regime type across the planet, over time.
