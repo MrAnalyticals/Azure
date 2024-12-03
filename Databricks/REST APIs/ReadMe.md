@@ -1,4 +1,5 @@
-Connecting Rest API data to your Azure Databricks Notebook
+**Connecting Rest API data to your Azure Databricks Notebook**
+
 
 In this demo I show you how to connect REST API available data to your Azure Databricks notebook. 
 In Microsoft's documentation page, entitled PySpark basics, 
